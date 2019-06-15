@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Card from './Card';
+import cardData from "../../data"
 
 const Cards = props => {
   return (
     <div className="cards-container">
       {props.cards.map (card => {
         return (
-          <Card key = {card.id}ß
+          <Card key = {card.id}
             firstThing ={card}
             tab={card.tab}
             headline={card.headline}

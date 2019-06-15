@@ -1,4 +1,33 @@
 import React from 'react';
+import PropTypes from "prop-types";
+import styled from "styled-components";
+
+const CardStyle = styled.div `
+    border: 2px solid blue
+    border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  flex-direction: column;
+  background-color: #fff;
+  width: 380px;
+  margin-bottom: 16px;
+  padding: 24px;`
+
+
+
+const HeadlineStyle = styled.div `
+font-size: 25px;
+font-family: Didot, serif`
+
+const ImgStyle  = styled.div
+    `  padding-right: 10px;
+    border-right: 1px solid lightgrey;
+    height: 40px;
+          
+        img {
+        width: 40px;
+        }`
 
 const Card = props => {
   return (
