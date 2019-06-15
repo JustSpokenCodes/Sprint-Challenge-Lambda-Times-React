@@ -3,12 +3,14 @@ import React from 'react';
 const Card = props => {
   return (
     <div className="card">
-      <div className="headline">{/* headline goes here */}</div>
+      <div className="headline">{props.firstThing.headline}
+      </div>
       <div className="author">
+        {props.firstThing.tab}
         <div className="img-container">
-          <img src={'' /* image source goes here */} />
+          <img src={props.firstThing.img} />
         </div>
-        <span>By {/* author goes here */}</span>
+        <span>By {props.firstThing.author}</span>
       </div>
     </div>
   );
