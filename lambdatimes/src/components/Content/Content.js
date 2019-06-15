@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import styled from "styled-components";
 import Tabs from './Tabs';
 import Cards from './Cards';
 
