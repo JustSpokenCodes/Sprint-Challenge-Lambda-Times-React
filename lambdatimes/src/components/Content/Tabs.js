@@ -1,6 +1,7 @@
 import React from 'react';
 import Tab from './Tab';
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const DivStyle = styled.div `
   display: inline-flex;
