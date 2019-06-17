@@ -27,6 +27,11 @@ const Tabs = props => {
   );
 };
 
+Tabs.propTypes = {
+  tab: PropTypes.string,
+  changeSelected: PropTypes.string
+};
+
 // Make sure to use PropTypes to validate your types!
 export default Tabs;
 

@@ -1,0 +1,4 @@
+[] Prototypes are used to make sure that when you search for something it only comes up with just what you searched 
+[] To declare special methods on the component class to run code when a component mounts and unmounts
+[] A HOC is when you use multiple components and condense them all into one single component that can do more than just one action.
+[] CSS stylesheet which is using .css in import it into your .js file , Inline styling which is an object whose key is the camelCased version of the style name , and CSS Modules which is a .css file where all class names are scoped locally by default. 
