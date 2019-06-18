@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const CardStyle = styled.div `
-    border: 2px solid blue
-    border-bottom: 1px solid lightgrey;
+  border: 2px solid blue;
+  border-bottom: 1px solid lightgrey;
   display: flex;
   justify-content: space-between;
   align-items: none;
